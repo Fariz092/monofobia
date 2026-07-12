@@ -297,11 +297,6 @@ function Room({ roomLightOn }: { roomLightOn: boolean }) {
           <boxGeometry args={[1.3, 2.38, 0.1]} />
           <meshStandardMaterial map={doorTexture} color="#ffffff" />
         </mesh>
-        {/* Doorknob */}
-        <mesh position={[-0.55, -0.2, -0.06]} castShadow>
-          <sphereGeometry args={[0.04, 16, 16]} />
-          <meshStandardMaterial color="#ffb300" />
-        </mesh>
       </group>
 
       <group position={[0, 0, -3.1]}>
