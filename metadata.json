@@ -1,0 +1,6 @@
+{
+  "name": "Monofobia - Prologue",
+  "description": "Kerangka game psychological horror Monofobia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
